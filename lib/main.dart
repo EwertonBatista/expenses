@@ -50,19 +50,31 @@ class _MyHomePageState extends State<MyHomePage> {
       id: 't1',
       title: 'ASUS TUF B550M PLUS WIFI II',
       value: 590.46,
-      date: DateTime.now().subtract(Duration(days: 3)),
+      date: DateTime.now().subtract(Duration(days: 2)),
     ),
     Transaction(
       id: 't2',
       title: 'GeForce RTX 3050 8GB',
       value: 754.30,
+      date: DateTime.now().subtract(Duration(days: 3)),
+    ),
+    Transaction(
+      id: 't3',
+      title: 'AMD Ryzen 7 5700X',
+      value: 478.60,
       date: DateTime.now().subtract(Duration(days: 4)),
     ),
     Transaction(
-      id: 'jaca',
-      title: 'AMD Ryzen 7 5700X',
-      value: 478.60,
-      date: DateTime.now().subtract(Duration(days: 5)),
+      id: 't4',
+      title: 'Teclado Mecânico Redragon Kurama',
+      value: 340.60,
+      date: DateTime.now(),
+    ),
+    Transaction(
+      id: 't5',
+      title: 'Headset Redragon Kurama',
+      value: 290.60,
+      date: DateTime.now(),
     ),
   ];
 

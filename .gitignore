@@ -43,5 +43,3 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
-# Ignore language
-.c++ linguist-detectable=false

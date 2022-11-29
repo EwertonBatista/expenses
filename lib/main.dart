@@ -94,15 +94,11 @@ class _MyHomePageState extends State<MyHomePage> {
       title: Text('Despesas Pessoais'),
       actions: <Widget>[
         if (isLandScape)
-          Row(
-            children: [
-              IconButton(
-                icon: Icon(_showChart ? Icons.list : Icons.bar_chart_rounded),
-                onPressed: () => setState(() {
-                  _showChart = !_showChart;
-                }),
-              ),
-            ],
+          IconButton(
+            icon: Icon(_showChart ? Icons.list : Icons.bar_chart_rounded),
+            onPressed: () => setState(() {
+              _showChart = !_showChart;
+            }),
           ),
         IconButton(
           icon: Icon(Icons.add),
